@@ -1,0 +1,32 @@
+*{
+    margin:0px ;
+}
+
+nav{background-color: aqua;}
+
+.kolom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav > ul {
+    list-style-type: none ;
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    width: 120px;
+    height: 35px;
+    padding: 5pxx;
+}
+
+    nav ul li >ul {
+
+        display: none;
+    }
+
+    nav ul li:hover ul{
+        display: inline;
+    }
